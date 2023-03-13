@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+
+}
+#clock{
+    background-color: rgba(18, 4, 4, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+#time{
+   padding: 10px;
+    bottom: 0;
+    color: #eee;
+    align-items: center;
+    font-family: Verdana;
+    font-weight: 800;
+    font-size: large;
+    letter-spacing: 1px;
+    background-color: black;
+    border-radius: 20px;
+
+}
+
+
+
+
+#time:hover {
+    animation: shapeup 3s ease;
+  }
+  
+@keyframes shapeup {
+    0% {
+      color: rgb(255, 255, 255);
+    }
+  
+    100% {
+      background-color: #eee;
+      color: rgb(0, 0, 0);
+    }
+  }
+  
